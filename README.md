@@ -15,7 +15,23 @@ Using the np.linalg.solve(), we can find the solutions.
 End the program
 ## Program:
 
+```
+a1, b1, c1 = 1, 3, 5 
+a2, b2, c2 = 2, 5, - 3
+D = a1*b2-a2*b1
+Dx = c1 * b2 - c2 * b1 
+Dy = a1 * c2 - a2 * c1
+x = Dx / D 
+y = Dy / D
+print(f"[{x:.0f}.  {y:.0f}.]")
+
+```
+
 ## Output:
+
+<img width="1492" height="966" alt="image" src="https://github.com/user-attachments/assets/0e7c8303-b8a7-4622-ba47-62654ab11bd2" />
+
+
 ## Result: 
 Thus the solutions for the linear equations are successfully solved using python program
 
