@@ -15,19 +15,20 @@ Using the np.linalg.solve(), we can find the solutions.
 End the program
 ## Program:
 
-```python 
+```
 import os
 os.environ["OPENBLAS_NUM_THREADS"] = "1"
 import numpy as np
-A = np.array([[1, -3],[3,  1]])
-B = np.array([0, 10])
+A = np.array([[5, -3, -10],[2,  2,  -3],[-3, -1,  5]])
+B = np.array([-9, 4, -1])
 C = np.linalg.solve(A, B)
 print(C)
+
 ```
 
 ## Output:
 
-<img width="921" height="783" alt="image" src="https://github.com/user-attachments/assets/82208a39-7aa4-40fb-8fad-fe74c79d8575" />
+<img width="1492" height="932" alt="image" src="https://github.com/user-attachments/assets/3adcb321-dbec-40a4-8018-96d2c1ba5a3a" />
 
 
 ## Result: 
